@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src='jss/game.js'></script>
+    <script src='jss/world.js'></script>
+    <script src='jss/screen.js'></script>
+    <script type='module'>
+      import * as rl from "./lib/rl.js"
+      const game=new Game();
+      const world=new World();
+      const screen=new Screen();
+      const control=new Controller();
+    </script>
+  </head>
+  <body>
+    <canvas id='cvs' width='1280' height='720'>Sean is a cool dude.</canvas>
+  </body>
+</html>
