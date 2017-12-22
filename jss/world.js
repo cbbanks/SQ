@@ -3,3 +3,5 @@ class World{
     this.moo=1;
   }
 }
+
+export default World;
