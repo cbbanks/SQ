@@ -6,7 +6,7 @@ class Game{
 	}
 
 	start(){
-
+		screen.blank();
 	}
 
 
